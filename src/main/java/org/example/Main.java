@@ -7,9 +7,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        double mediun = medNum(new double[]{7.4, 3.9, 1.2, 9.7, 2.3, 8.2});
+        //double mediun = medNum(new double[]{7.4, 3.9, 1.2, 9.7, 2.3, 8.2});
 
-        System.out.println(mediun);
+        System.out.println("mediun");
 
     }
 
