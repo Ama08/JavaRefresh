@@ -1,1 +1,1 @@
-Refreshing my java knowledge to keep my skills upt to date
+Refreshing my java knowledge to keep my skills up to date
