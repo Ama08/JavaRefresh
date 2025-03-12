@@ -44,4 +44,24 @@ public class Collections {
         }
         return map;
     }
+
+    public int getDuplicateWordCount(String sentence){
+        String string = sentence.replaceAll("[^a-zA-Z ]", "").toLowerCase();
+
+        String[] words = string.split("\\s+");
+
+        Map<String, Integer> map = new HashMap<>();
+
+        for(String word : words){
+            map.put(word, map.getOrDefault(word, 0) + 1);
+        }
+
+        int duplicateCount = 0;
+        for(int count : map.values()){
+            if(count > 1){
+                duplicateCount ++;
+            }
+        }
+        return duplicateCount;
+    }
 }
