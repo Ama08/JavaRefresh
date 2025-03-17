@@ -1,4 +1,4 @@
-package org.Optionals;
+package org.optionals;
 
 public class MissingMotherboardException extends Exception {
     public MissingMotherboardException(String message) {

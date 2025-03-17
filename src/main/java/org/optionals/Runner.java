@@ -1,4 +1,4 @@
-package org.Optionals;
+package org.optionals;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;

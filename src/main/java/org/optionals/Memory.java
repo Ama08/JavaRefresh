@@ -1,4 +1,4 @@
-package org.Optionals;
+package org.optionals;
 
 public class Memory {
     private String model;
