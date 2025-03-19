@@ -12,5 +12,12 @@ public class Runner {
         System.out.println(memory.MODEL);
         System.out.println(processor.SPEED);
         System.out.println(hardDrive.getUsedSpace());
+
+        String string1 = "abc";
+
+        string1 = string1 + 'd';
+
+        System.out.println(string1);
+
     }
 }
